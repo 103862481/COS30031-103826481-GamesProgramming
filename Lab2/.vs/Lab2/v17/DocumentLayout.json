@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|solutionrelative:src\\NumberGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|solutionrelative:src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57C571B2-26E8-48B6-AD85-6EED205A5735}|Lab2.vcxproj|solutionrelative:src\\NumberGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\Main.cpp",
               "RelativeDocumentMoniker": "src\\Main.cpp",
               "ToolTip": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\Main.cpp",
               "RelativeToolTip": "src\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-29T01:38:31.799Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NumberGenerator.h",
+              "DocumentMoniker": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.h",
+              "RelativeDocumentMoniker": "src\\NumberGenerator.h",
+              "ToolTip": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.h",
+              "RelativeToolTip": "src\\NumberGenerator.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T01:42:45.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NumberGenerator.cpp",
+              "DocumentMoniker": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.cpp",
+              "RelativeDocumentMoniker": "src\\NumberGenerator.cpp",
+              "ToolTip": "C:\\Users\\liamw\\OneDrive\\Documents\\UniWork\\Y3\\Semester 2\\COS30031 - Games Programming\\Assigments\\COS30031GamesProgramming\\Lab2\\src\\NumberGenerator.cpp",
+              "RelativeToolTip": "src\\NumberGenerator.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T01:50:21.777Z",
               "EditorCaption": ""
             }
           ]
