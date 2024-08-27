@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 #include "File.h"
 #include "json.hpp"
 #include <locale>
@@ -78,6 +79,21 @@ void File::ReadTextFile(std::string a_fileName)
             if (fileLine[0] == '#')
             {
                 continue;
+            }
+
+            std::stringstream ss(fileLine);
+            std::string token;
+
+            while (std::getline(ss, token, ':'))
+            {
+                tokens.push_back(token);
+            }
+
+            if (tokens.size() == 3)
+            {
+                std::cout << "Token 1: " << tokens[0] << "\n";
+                std::cout << "Token 2: " << tokens[1] << "\n";
+                std::cout << "Token 3: " << tokens[2] << "\n";
             }
             std::cout << fileLine << "\n";
         }

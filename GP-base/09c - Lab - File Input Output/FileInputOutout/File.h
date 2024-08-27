@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <vector>
 
 class File
 {
@@ -22,4 +23,5 @@ private:
     int integer;
     float floatingPointNum;
     char character;
+    std::vector<std::string> tokens;
 };

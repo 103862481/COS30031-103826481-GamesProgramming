@@ -164,6 +164,9 @@
   <ItemGroup>
     <Content Include="PlayerData.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Simple.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

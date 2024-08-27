@@ -10,7 +10,6 @@ int main(int argc, char* argv[])
     file->GetFileSize();
     file->ReadValuesFromFile();
     file->ReadJSONFile();
-
     
     return 0;
 }
