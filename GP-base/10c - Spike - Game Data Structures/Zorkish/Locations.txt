@@ -1,0 +1,15 @@
+Forest
+You are in a Forest.
+River Town Cave
+
+Cave
+You are in a what seems to be a very large Cave but it is too dark to see deeper into it.
+Forest Town River
+
+Town
+You are in a busting town filled with folk. You can see bartering shops, a local Inn and the Town Center.
+Forest Cave
+
+River
+You are next to quiet and calm River, looking in it you see beautifully coloured fish and stones.
+Forest Cave
