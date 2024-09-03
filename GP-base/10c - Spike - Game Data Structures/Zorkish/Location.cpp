@@ -6,35 +6,30 @@
 
 Location::Location()
 {
-    locationName = "Default Location yet to be made";
-    locationDescription = "A Location yet to be created";
-
-    Item* newItem = new Item();
-    locationItems.push_back(newItem);
-
-    
+    LocationName = "Default Location yet to be made";
+    LocationDescription = "A Location yet to be created";
 }
 
 Location::Location(std::string a_locationName, std::string a_locationDescription, std::string a_locationConnections)
 {
-    locationName = a_locationName;
-    locationDescription = a_locationDescription;
+    LocationName = a_locationName;
+    LocationDescription = a_locationDescription;
     CreateConnections(a_locationConnections);
 }
 
-std::string Location::GetLocationName()
+std::string Location::GetLocationName() const
 {
-    return locationName;
+    return LocationName;
 }
 
-std::string Location::GetLocationDescription()
+std::string Location::GetLocationDescription() const
 {
-    return locationDescription;
+    return LocationDescription;
 }
 
-std::vector<std::string> Location::GetLocationConnections()
+std::vector<std::string> Location::GetLocationConnections() const
 {
-    return locationConnections;
+    return LocationConnections;
 }
 
 void Location::CreateConnections(std::string a_locationConnections)
@@ -44,6 +39,6 @@ void Location::CreateConnections(std::string a_locationConnections)
 
     while (std::getline(ConnectionStream, ConnectionName, ' '))
     {
-        locationConnections.push_back(ConnectionName);
+        LocationConnections.push_back(ConnectionName);
     }
 }

@@ -36,10 +36,7 @@ void Map::CreateLocations()
     std::vector<std::string> information;
     for (int i = 0; i < locationInformation.size(); i += informationSize)
     {
-        if (i % 3 == 0)
-        {
-            Location* newLocation = new Location(locationInformation[i], locationInformation[i + 1], locationInformation[i + 2]);
-            LocationsArray.push_back(newLocation);
-        }
+        Location* newLocation = new Location(locationInformation[i], locationInformation[i + 1], locationInformation[i + 2]);
+        LocationsArray.push_back(newLocation);
     }
 }

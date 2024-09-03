@@ -158,6 +158,8 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Location.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Movement.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Zorkish.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +167,8 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Movement.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,16 +11,16 @@ public:
     Location(std::string a_locationName, std::string a_locationDescription, std::string a_locationConnections);
     ~Location() = default;
     
-    std::string GetLocationName();
-    std::string GetLocationDescription();
-    std::vector<std::string> GetLocationConnections();
+    std::string GetLocationName() const;
+    std::string GetLocationDescription() const;
+    std::vector<std::string> GetLocationConnections() const;
     
 private:
 
-    void CreateConnections(std::string);
-    std::string locationName;
-    std::string locationDescription;
-    std::vector<std::string> locationConnections;
-    std::vector<Item*> locationItems;
+    void CreateConnections(std::string a_locationConnections);
+    std::string LocationName;
+    std::string LocationDescription;
+    std::vector<std::string> LocationConnections;
+    std::vector<Item*> LocationItems;
     std::vector<std::string> LocationInformation;
 };
