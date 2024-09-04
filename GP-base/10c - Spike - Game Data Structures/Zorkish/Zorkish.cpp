@@ -8,17 +8,18 @@
 
 int main(int argc, char* argv[])
 {
-    Movement* MovementInput = new Movement();
-    
-    Item* PlayerLetter = new Item();
     Inventory* PlayerInventory = new Inventory();
+    Item* PlayerLetter = new Item();
     PlayerInventory->AddItemToInventory("Letter", PlayerLetter);
     Map* GameMap = new Map("Locations.txt");
     std::vector<Location*> locations = GameMap->GetMapLocations();
     Player* PlayerCharacter = new Player(locations[0], PlayerInventory);
+    Movement* MovementInput = new Movement(GameMap, PlayerCharacter);
 
     std::string MovementText;
-    while (true)
+
+    std::cout << "Welcome to Zorkish Alpha 0.1" << "\n";
+    while (MovementText != "quit")
     {
         std::cin >> MovementText;
         MovementInput->ChangeLocations(MovementText);
